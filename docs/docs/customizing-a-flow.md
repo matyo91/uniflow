@@ -9,7 +9,7 @@ This component can be anything, the minimum code to implement :
 ```jsx
 import React from 'react'
 
-export default function CodeFlow() {
+export default function FunctionFlow() {
     return <div>My flow component</div>
 }
 ```
