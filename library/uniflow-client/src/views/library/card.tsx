@@ -40,7 +40,7 @@ const Card: FC<CardProps> = (props) => {
   let editUrl = null;
   if (card.official) {
     repository = `https://github.com/uniflow-io/uniflow/tree/1.x/${card.repository.directory}`;
-    editUrl = `https://github.com/uniflow-io/uniflow/blob/1.x/${card.repository.directory}/README.md`;
+    editUrl = `https://github.com/uniflow-io/uniflow/edit/1.x/${card.repository.directory}/README.md`;
   }
 
   return (
